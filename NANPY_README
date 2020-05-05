@@ -1,0 +1,17 @@
+Installing nanpy onto your machine:
+1. Enter the "nanpy" folder
+2. type: sudo python3 setup.py install
+
+Config header file location:
+~/sketchbook/libraries/nanpy-firmware/Nanpy/cfg.h
+Be sure to reupload to Arduino board after making changes to the config file.
+
+To open Nanpy library for uploading:
+- Open Arduino IDE
+- Check to see if it's the right board and serial port
+	- Tools > Board > Arduino Mega 2560
+	- Tools > Serial Port > /dev/ttyACM0 (might be slightly different
+		depending on the USB port used)
+- Go to File > Sketchbook > libraries > nanpy-firmware > Nanpy
+- Upload to Arduino board 
+
